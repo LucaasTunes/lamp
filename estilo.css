@@ -1,0 +1,22 @@
+.lampada img {
+   width: 1000px;
+   height: auto;
+    display: none;
+}
+
+.lampada-acesa {
+    display: block;
+    background-color: black;
+}
+
+.lampada-apagada {
+    display: none;
+}
+
+.lampada.ligada .lampada-acesa {
+    display: none;
+}
+
+.lampada.ligada .lampada-apagada {
+    display: block;
+}
